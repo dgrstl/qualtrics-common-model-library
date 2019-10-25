@@ -1,0 +1,23 @@
+{
+  "title": "MetaInError",
+  "type": "object",
+  "description": "",
+  "properties": {
+    "error": {
+      "$ref": "./Error.v1.yaml"
+    },
+    "requestId": {
+      "title": "An identifier of the incoming request.",
+      "type": "string"
+    },
+    "httpStatus": {
+      "title": "http status",
+      "type": "string"
+    }
+  },
+  "required": [
+    "error",
+    "requestId",
+    "httpStatus"
+  ]
+}

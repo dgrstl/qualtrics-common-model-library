@@ -1,0 +1,13 @@
+{
+  "title": "DefaultErrorResponse",
+  "type": "object",
+  "properties": {
+    "meta": {
+      "$ref": "./metainerror.v1.json"
+    }
+  },
+  "required": [
+    "meta"
+  ],
+  "description": ""
+}

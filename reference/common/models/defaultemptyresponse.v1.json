@@ -1,0 +1,12 @@
+{
+  "title": "DefaultEmptyResponse",
+  "type": "object",
+  "properties": {
+    "meta": {
+      "$ref": "./meta.v1.json"
+    }
+  },
+  "required": [
+    "meta"
+  ]
+}

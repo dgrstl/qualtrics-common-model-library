@@ -1,0 +1,18 @@
+{
+        "title": "Meta",
+        "type": "object",
+        "required": [
+          "httpStatus",
+          "requestId"
+        ],
+        "properties": {
+          "httpStatus": {
+            "title": "http status",
+            "type": "string"
+          },
+          "requestId": {
+            "title": "An identifier of the incoming request.",
+            "type": "string"
+          }
+        }
+      }
