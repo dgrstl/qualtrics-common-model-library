@@ -9,5 +9,5 @@
   "required": [
     "meta"
   ],
-  "description": ""
+  "description": "Default error response."
 }
