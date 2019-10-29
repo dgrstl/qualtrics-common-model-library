@@ -8,5 +8,6 @@
   },
   "required": [
     "meta"
-  ]
+  ],
+  "description": "Default response for operations with no return data"
 }
