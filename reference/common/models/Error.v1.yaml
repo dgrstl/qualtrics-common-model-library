@@ -1,18 +1,13 @@
-{
-    "title": "Error",
-    "type": "object",
-    "required": [
-        "errorMessage",
-        "errorCode"
-    ],
-    "properties": {
-        "errorMessage": {
-            "title": "Detail error message.",
-            "type": "string"
-        },
-        "errorCode": {
-            "title": "Unique error code of a cause.",
-            "type": "string"
-        }
-    }
-}
+title: Error
+type: object
+required:
+  - errorMessage
+  - errorCode
+properties:
+  errorMessage:
+    title: Detail error message.
+    type: string
+  errorCode:
+    title: Unique error code of a cause.
+    type: string
+description: foo
