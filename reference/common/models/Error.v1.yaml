@@ -10,4 +10,4 @@ properties:
   errorCode:
     title: Unique error code of a cause.
     type: string
-description: foo
+description: feat1
